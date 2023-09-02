@@ -138,6 +138,19 @@ body {
   align-items: center;
 }
 
+@media (max-width: 1200px) {
+  .section-hero {
+    background-color: orangered;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-hero {
+    border: dashed 20px blue;
+    background-color: blue;
+  }
+}
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -453,7 +466,7 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   color: #333;
-  background-color: #ffd43b;
+  background-color: #df9e06;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
