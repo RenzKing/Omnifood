@@ -118,9 +118,6 @@ Default: 9px;
   color: #333;
 }
 
-.icon-mobile-nav[name="menu-outline"] {
-}
-
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
@@ -250,7 +247,7 @@ Default: 9px;
 /***************************/
 
 .section-featured {
-  padding: 4.8rem 0 3.2rem;
+  padding: 4.8rem 0 3.2rem 0;
 }
 
 .heading-featured-in {
