@@ -47,6 +47,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .heading-primary,
 .heading-secondary {
   font-weight: 700;
