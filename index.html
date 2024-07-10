@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/general.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
     <title>Omnifood</title>
@@ -442,14 +441,19 @@
             <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
 
             <form class="cta-form" action="#">
-<div>
+
+            <div>
               <label for="full-name">Full Name</label>
-              <input id="full-name" type="text" placeholder="Your name" required> 
+              <input id="full-name" type="text" placeholder="Your name" required/> 
             </div>
+
+
             <div>
               <label for="email">Email Address</label>
-              <input id="email" type="email" placeholder="me@example.com" required> 
+              <input id="email" type="email" placeholder="me@example.com" required/> 
             </div>
+
+
             <div>
               <label for="select-where">Where did you hear from us?</label>
               <select id="select-where" required>
@@ -461,7 +465,9 @@
                 <option value="">Others</option>
               </select>
             </div>
-              <button class="btn">Sign up now</button>
+            
+            <button class="btn btn--form">Sign up now</button>
+          
               <!--            
                             <input type="checkbox">
                             <input type="number"> -->
